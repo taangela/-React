@@ -26,7 +26,7 @@ class List extends React.Component {
 					<Column title='Recipe'/>
 				</div>
 			</section>
-		)
+		);
 	}
 }
 

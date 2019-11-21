@@ -12,7 +12,7 @@ class App extends React.Component {
 	        image="http://uploads.kodilla.com/bootcamp/fer/11.react/space.png">
 	      </List>
       </main>
-    )
+    );
   }
 }
 

@@ -10,18 +10,18 @@ import ReactHtmlParser from 'react-html-parser';
 
 class List extends React.Component {
   state = {
-    columns: this.props.columns || []
+    columns: this.props.columns || [],
   };
 
   static propTypes = {
     title: PropTypes.node.isRequired,
     description: PropTypes.node,
     columns: PropTypes.array,
-    image: PropTypes.string
+    image: PropTypes.string,
   };
 
   static defaultProps = {
-    description: settings.defaultListDescription
+    description: settings.defaultListDescription,
   };
 
   addColumn(title){
@@ -33,9 +33,9 @@ class List extends React.Component {
             key: state.columns.length ? state.columns[state.columns.length-1].key+1 : 0,
             title,
             icon: 'list-alt',
-            cards: []
-          }
-        ]
+            cards: [],
+          },
+        ],
       }
     ));
   }
@@ -59,6 +59,7 @@ class List extends React.Component {
       </section>
     );
   }
+
 }
 
 export default List;

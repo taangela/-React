@@ -9,13 +9,14 @@ import { settings } from '../../data/dataStore';
 
 class Column extends React.Component { 
   state = {
-    cards: this.props.cards || []
+    cards: this.props.cards || [],
   };
 
 
   static propTypes = {
     title: PropTypes.node.isRequired,
     cards: PropTypes.array,
+    icon: PropTypes.node,
   };
 
   addCard(title){
@@ -26,8 +27,8 @@ class Column extends React.Component {
           {
             key: state.cards.length ? state.cards[state.cards.length-1].key+1 : 0,
             title,
-          }
-        ]
+          },
+        ],
       }
     ));
     console.log('haha');

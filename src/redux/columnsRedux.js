@@ -7,8 +7,8 @@ export const getColumnsForList = ({columns}, listId) => columns.filter(column =>
 
 // action name creator
 const reducerName = 'columns';//zapisujemy nazwę właściwości stanu na której wykonamy akcję
-const createActionName = name => `app/${reducerName}/${name}`;
-
+const createActionName = name => `app/${reducerName}/${name}`;//będzie potrzebna wszędzie
+//zmiana nazwy akcji na dłuższy indentyfikator, z trzech członów 
 // action types
 export const ADD_COLUMN = createActionName('ADD_COLUMN');
 

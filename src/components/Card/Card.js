@@ -5,7 +5,7 @@ import {Draggable} from 'react-beautiful-dnd';
 
 class Card extends React.Component {
     static propTypes = {
-      title: PropTypes.node.isRequired,
+      title: PropTypes.string,
       id: PropTypes.string,
       index: PropTypes.number,
     };

@@ -92,6 +92,20 @@ const lists = [
     description: 'Interesting things I want to check out!',
     image: 'http://uploads.kodilla.com/bootcamp/fer/11.react/space.png',
   },
+
+  {
+    id: 'list-2',
+    title: 'Things to do next week',
+    description: 'I still have a lot of time to do that!',
+    image: 'https://images.pexels.com/photos/707676/pexels-photo-707676.jpeg?cs=srgb&dl=black-and-white-black-and-white-monochrome-707676.jpg&fm=jpg',
+  },
+
+  {
+    id: 'list-3',
+    title: 'Things I did',
+    description: 'Yes, I did it!',
+    image: 'https://images.pexels.com/photos/957312/chess-checkmated-chess-pieces-black-white-957312.jpeg?cs=srgb&dl=black-white-black-and-white-board-game-957312.jpg&fm=jpg',
+  },
 ];
 
 const columns = [

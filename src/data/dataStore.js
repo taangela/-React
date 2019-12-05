@@ -130,8 +130,14 @@ const columns = [
   {
     id: 'column-4',
     listId: 'list-2',
-    title: 'Strange column',
-    icon: 'question',
+    title: 'To do',
+    icon: 'clock',
+  },
+  {
+    id: 'column-5',
+    listId: 'list-3',
+    title: 'I did',
+    icon: 'check',
   },
 ];
 

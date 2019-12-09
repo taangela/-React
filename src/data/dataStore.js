@@ -13,6 +13,7 @@ export const settings = {
   defaultListDescription: '<p>I can do all the things!!!</p>',
   defaultColumnIcon: 'list-alt',
   defaultHeaderIcon: 'kiwi-bird',
+  defaultResultsIcon: 'lightbulb',
 };
 
 export const pageContents = {
@@ -30,6 +31,10 @@ export const faqData ={
   title: 'FAQ',
   text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
   image: 'https://images.pexels.com/photos/1279813/pexels-photo-1279813.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940',
+};
+
+export const searchResultsData ={
+  title: 'Search results',
 };
 
 export const listData = {
@@ -176,6 +181,18 @@ const cards = [
     id: 'card-6',
     columnId: 'column-3',
     title: 'Skyrim',
+    index: 1,
+  },
+  {
+    id: 'card-7',
+    columnId: 'column-4',
+    title: 'Matrioszka',
+    index: 0,
+  },
+  {
+    id: 'card-8',
+    columnId: 'column-4',
+    title: 'Hamper',
     index: 1,
   },
 ];
